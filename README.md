@@ -54,7 +54,7 @@ Modules can be used directly from this repository.
 
 ```
 module "cloud_run_service" {
-  source = "git::https://github.com/coderilla/terraform-gcp-modules.git//modules/cloud_run_service?ref=v0.1.0"
+  source = "git::https://github.com/coderilla-software/terraform-gcp-modules.git//modules/cloud_run_service?ref=v0.1.0"
   image = "https://path-to-your-docker-image"
 
   project_id = "my-project-id"

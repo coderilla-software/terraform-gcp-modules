@@ -28,7 +28,7 @@ This module provisions the following resources:
 
 ```hcl
 module "stripe_webhook_function" {
-  source = "git::https://github.com/coderilla/terraform-gcp-modules.git//modules/cloud_function?ref=v0.1.0"
+  source = "git::https://github.com/coderilla-software/terraform-gcp-modules.git//modules/cloud_function?ref=v0.1.0"
 
   project_id = "my-project-id"
   region     = "europe-west3"
